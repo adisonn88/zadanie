@@ -1,0 +1,57 @@
+header {
+    background-image: url(foto.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.klasa {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+     
+}
+
+.klasa li {
+    display: inline-block;
+}
+
+.klasa li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+    border-radius: 15px;
+    text-shadow: 5px 5px 2px;
+}
+
+.klasa li a:hover {
+    border: 2px solid white;
+}
+.logo img {
+    weight: 150px;
+    height: auto;
+    float: left;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+.panel {
+    float: right;
+    color: white;
+    style: italic;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+.panel label a {
+    margin-right: 50px;
+    float: left;
+}
+.forma {
+    color: red;
+}
