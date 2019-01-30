@@ -1,0 +1,35 @@
+.zdjecie{
+    background-image: url("photo-1548443777-f9ad3e213c8d.jpeg");
+   
+    background-repeat: no-repeat;
+    border: solid;
+    border-color: slategray;
+}
+
+
+#panel {
+   border: solid;
+   border-color: slategray;
+   background-color: lightblue;
+   width: 600px;
+   position: relative;
+   left: 500px;
+   top: -606px;
+   height: 600px;
+}
+
+label {
+    display: block;
+    width: 260px;
+    padding: 10px 20px;
+    color: #696969;
+    font-size: 16px;
+    text-shadow: 0 0 1px silver;
+    }
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
